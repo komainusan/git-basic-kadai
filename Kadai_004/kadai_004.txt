@@ -1,0 +1,39 @@
+nishi@DESKTOP-8HUIORR MINGW64 ~/Desktop
+$ mkdir git_challenge
+
+nishi@DESKTOP-8HUIORR MINGW64 ~/Desktop
+$ cd git_challenge/
+
+nishi@DESKTOP-8HUIORR MINGW64 ~/Desktop/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/nishi/Desktop/git_challenge/.git/
+
+nishi@DESKTOP-8HUIORR MINGW64 ~/Desktop/git_challenge (main)
+$ git add hello_world.txt
+
+nishi@DESKTOP-8HUIORR MINGW64 ~/Desktop/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 1865089] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+$ git add hello_world.txt
+
+nishi@DESKTOP-8HUIORR MINGW64 ~/Desktop/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main 8547fff] 日本語訳を追加
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+nishi@DESKTOP-8HUIORR MINGW64 ~/Desktop/git_challenge (main)
+$ git log
+commit 8547fff502c4095a57868e01373468fa3abc195f (HEAD -> main)
+Author: Toshiki <nishiobadmvol@gmail.com>
+Date:   Wed Sep 27 21:33:07 2023 +0900
+
+    日本語訳を追加
+
+commit 18650899fabe98d9ddc635c6988409577fd17fd4
+Author: Toshiki <nishiobadmvol@gmail.com>
+Date:   Wed Sep 27 21:31:20 2023 +0900
+
+    hello_world.txtを追加
